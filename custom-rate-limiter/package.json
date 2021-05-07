@@ -1,0 +1,24 @@
+{
+  "name": "rate-limiter",
+  "version": "0.0.1",
+  "description": "A simple Redis Backed Rate Limiter",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "clean": "rm -rf dist/ types/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/redis": "^2.8.28",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}
